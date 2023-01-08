@@ -35,11 +35,7 @@ dependencies {
     )
 }
 
-task advanced_kion_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags("advanced_kion")
-    }
-}
+
 
 tasks.withType(Test) {
     systemProperties(System.getProperties())
