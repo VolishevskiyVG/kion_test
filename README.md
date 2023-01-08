@@ -102,5 +102,5 @@ gradle clean test
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 
 <p align="center">
-<img title="Selenoid_gif" src="readme_attach/Selenoid.mp4">
+<img title="Selenoid" src="readme_attach/selemoid.gif">
 </p>
