@@ -27,9 +27,10 @@ tasks.withType(JavaCompile) {
 
 dependencies {
     testImplementation (
-            'org.junit.jupiter:junit-jupiter:5.9.1',
+            "com.github.javafaker:javafaker:1.0.2",
             'com.codeborne:selenide:6.11.0',
-            'io.qameta.allure:allure-selenide:2.20.1',
+            'io.qameta.allure:allure-selenide:2.20.0',
+            "org.junit.jupiter:junit-jupiter:5.9.1",
             'org.slf4j:slf4j-simple:2.0.5'
     )
 }

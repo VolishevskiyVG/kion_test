@@ -13,7 +13,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class TestBase {
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl =  System.getProperty("base_url", "https://kion.ru/home");
+        Configuration.baseUrl =  "https://kion.ru/home";
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "100");

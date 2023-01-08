@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 @Tag("advanced_kion")
-public class KionTests extends TestBase {
+public class KionTests  {
     @DisplayName("Отображение всех каналов на вкладке Телеканалы")
     @Test
     @Owner("Volishevskii")
