@@ -62,21 +62,45 @@
 gradle clean test 
 ```
 
-#### Локальный запуск тестов с использованием параметров из property файла test
-
-```
-gradle clean test
-```
-
-#### Удаленный запуск:
-> -Dbrowser <code>название браузера</code>
-> 
-> -DbrowserVersion <code>версия браузера</code>
-> 
-> -DbrowserSize <code>разрешение окна браузера</code>
-> 
-> -DremoteUrl <code>url remote сервиса</code>
-
-## <img width="4%" title="Jenkins" src="readme_design/logo/Jenkins.svg"> Удаленный запуск тестов в Jenkins
+## <img width="4%" title="Jenkins" src="readme_attach/Jenkins.svg"> Удаленный запуск тестов в Jenkins
 
 > Для запуска тестов используется параметризированная сборка
+<p align="center">
+<img title="Jenkins" src="readme_attach/settings.png">
+</p>
+
+## <img width="4%" title="Allure_Report" src="readme_attach/Allure_Report.svg"> Главная страница allure отчета
+
+<p align="center">
+<img title="Allure_main" src="readme_attach/allure.png">
+</p>
+
+### <img width="4%" title="Allure_Report" src="readme_attach/Allure_Report.svg"> Тест кейсы в отчете allure
+
+<p align="center">
+<img title="Allure_suits" src="readme_attach/allure_suits.png">
+</p>
+
+### <img width="4%" title="Allure_Report" src="readme_attach/Allure_Report.svg"> Основной дашборд
+
+<p align="center">
+<img title="Allure_dashboard" src="readme_attach/Graphs.png">
+</p>
+
+## <img width="4%" title="Telegram" src="readme_attach/Telegram.svg"> Уведомления в Telegram с использованием бота
+
+> После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне.
+>
+> Информация по настройке и использованию бота <code>https://github.com/qa-guru/allure-notifications</code>
+
+<p align="center">
+<img title="Telegram_notifications" src="readme_attach/telegram_allure.png">
+</p>
+
+## <img width="4%" title="Selenoid" src="readme_attach/Selenoid.svg"> Пример запуска теста в Selenoid
+
+> К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
+
+<p align="center">
+<img title="Selenoid_gif" src="readme_attach/Selenoid.mp4">
+</p>
