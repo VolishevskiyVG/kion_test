@@ -27,16 +27,16 @@
 ## Технологический стек
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="readme_design/logo/Intelij_IDEA.svg">
-<img width="6%" title="Java" src="readme_design/logo/Java.svg">
-<img width="6%" title="Selenide" src="readme_design/logo/Selenide.svg">
-<img width="6%" title="Selenoid" src="readme_design/logo/Selenoid.svg">
-<img width="6%" title="Allure Report" src="readme_design/logo/Allure_Report.svg">
-<img width="6%" title="Gradle" src="readme_design/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="readme_design/logo/JUnit5.svg">
-<img width="6%" title="GitHub" src="readme_design/logo/GitHub.svg">
-<img width="6%" title="Jenkins" src="readme_design/logo/Jenkins.svg">
-<img width="6%" title="Telegram" src="readme_design/logo/Telegram.svg">
+<img width="6%" title="IntelliJ IDEA" src="readme_attach/design/Intelij_IDEA.svg">
+<img width="6%" title="Java" src="readme_attach/design/Java.svg">
+<img width="6%" title="Selenide" src="readme_attach/design/Selenide.svg">
+<img width="6%" title="Selenoid" src="readme_attach/design/Selenoid.svg">
+<img width="6%" title="Allure Report" src="readme_attach/design/Allure_Report.svg">
+<img width="6%" title="Gradle" src="readme_attach/design/Gradle.svg">
+<img width="6%" title="JUnit5" src="readme_attach/design/JUnit5.svg">
+<img width="6%" title="GitHub" src="readme_attach/design/GitHub.svg">
+<img width="6%" title="Jenkins" src="readme_attach/design/Jenkins.svg">
+<img width="6%" title="Telegram" src="readme_attach/design/Telegram.svg">
 </p>
 
 ### Проект написан на <code>Java</code> с использованием <code>Selenide</code> для UI-тестов.
